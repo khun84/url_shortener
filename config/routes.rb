@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   resources :urls
 
+  get '/urls/:id/short' => 'urls#short'
 
 end
